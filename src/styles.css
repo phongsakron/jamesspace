@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap');
+html,
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(230, 230, 230);
+}
+
+.divider {
+    display: inline-block;
+    width: 50%;
+    border-color: rgb(175, 175, 175);
+    border-width: 2px 0px 0px 0px;
+    border-style: solid;
+}
+
+.fullwidth {
+    align-items: center;
+    text-align: center;
+}
+
+.flex-contrainer {
+    display: flex;
+}
+
+.flex-content {
+    flex: 1;
+}
