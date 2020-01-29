@@ -187,15 +187,8 @@ div.social-contrainer a:nth-child(n+2) {
 
 .view-more {
     transition: 1s;
-    /* text-transform: uppercase; */
     font-weight: normal;
-    /* border-color: #a52a2a;
-    border-style: solid;
-    border: 2px 2px 2px 2px; */
-    /* padding: 10px 10px 10px 10px; */
-    line-height: 4em;
-    /* border-radius: 10px; */
-    background-color: black;
+    /* background-color: black; */
     color: #fff;
 }
 
