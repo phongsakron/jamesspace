@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HostListener } from '@angular/core';
 import * as AOS from 'node_modules/aos';
+import { ElementSchemaRegistry } from '@angular/compiler';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -43,6 +44,22 @@ export class AppComponent implements OnInit {
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
     
     });
+  }
+
+  toggleHam(){
+    let elem = document.querySelector('.ham-open');
+    
+    console.log(elem.classList.contains('open'));
+    if (elem.classList.contains('open')) {
+      elem.classList.remove('open')
+    }else
+    {
+      elem.classList.add('open')
+    }
+    
+    
+    
+
   }
 
   

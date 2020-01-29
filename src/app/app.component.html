@@ -17,7 +17,7 @@
             </div>
 
             <div class="nav-ham">
-                <div>
+                <div (click)="toggleHam()">
                     <div class="ham"></div>
                     <div class="ham"></div>
                     <div class="ham"></div>
@@ -27,6 +27,34 @@
 
     </div>
 </div>
+
+
+<div class="ham-open" style="text-transform: uppercase;">
+    <div style="text-align: end;margin-top: 1%;margin-right: 10%;margin-bottom: 1%;">
+        <div style="display: inline-block;" (click)="toggleHam()">
+            <div class="ham"></div>
+            <div class="ham"></div>
+            <div class="ham"></div>
+        </div>
+    </div>
+
+    <a class="ham-list-content" href="#about" (click)="toggleHam()">About</a>
+
+
+    <a class="ham-list-content" href="#skill" (click)="toggleHam()">Skill</a>
+
+
+    <a class="ham-list-content" href="#myProject" (click)="toggleHam()">My Project</a>
+
+
+    <a class="ham-list-content" href="#exp" (click)="toggleHam()">experience</a>
+
+
+    <a class="ham-list-content" href="#contact" (click)="toggleHam()">Contact</a>
+
+
+</div>
+
 
 <div class="main" id="about">
     <div class="content-1" style="padding-top: 10%;">
@@ -159,16 +187,16 @@
                         <div id="slideshow" style="width: 250px;height: 250px;">
                             <div class="slide-wrapper">
                                 <div class="slide">
-                                    <img class="slide-img" src="https://image.flaticon.com/icons/svg/124/124010.svg">
+                                    <img class="slide-img" src="../assets/img/01.png" style="width: 250px;height: 250px;">
                                 </div>
                                 <div class="slide">
-                                    <img class="slide-img" src="https://image.flaticon.com/icons/svg/124/124011.svg">
+                                    <img class="slide-img" src="../assets/img/02.png" style="width: 250px;height: 250px;">
                                 </div>
                                 <div class="slide">
-                                    <img class="slide-img" src="https://image.flaticon.com/icons/svg/124/124012.svg">
+                                    <img class="slide-img" src="../assets/img/03.png" style="width: 250px;height: 250px;">
                                 </div>
                                 <div class="slide">
-                                    <img class="slide-img" src="https://image.flaticon.com/icons/svg/124/124013.svg">
+                                    <img class="slide-img" src="../assets/img/04.png" style="width: 250px;height: 250px;">
                                 </div>
                             </div>
                         </div>
